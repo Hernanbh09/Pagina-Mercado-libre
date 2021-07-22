@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+}
+.nav-header{
+    background-color: #fff159;
+    width: 100%;
+    height: 100px;
+    display: block;
+}
+.nav-bounds{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* -----Nav One ----- */
+.nav-bounds-one{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+/* -----Nav Button----- */
+.nav-menu-one-item-button{
+    display: flex;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    background-color: cornflowerblue;
+}
+
+/* -----Nav Category----- */
+.nav-menu-one-category{
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: crimson;
+}
+
+/* -----Nav Count----- */
+.nav-menu-one-count{
+    display: block;
+    width: 30%;
+    height: 100%;
+    background-color: darkmagenta;
+}
+
+/****************************/
+
+/* -----Nav Two ----- */
+.nav-bounds-two{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+/* -----Nav Button----- */
+.nav-menu-two-item-button{
+    display: block;
+    width: 20%;
+    height: 100%;
+    background-color: teal;
+}
+
+/* -----Nav Category----- */
+.nav-menu-two-category{
+    display: block;
+    width: 70%;
+    height: 100%;
+    background-color: chartreuse;
+}
+
+/* -----Nav Count----- */
+.nav-menu-two-count{
+    display: block;
+    width: 30%;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+
